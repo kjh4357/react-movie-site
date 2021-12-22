@@ -9,7 +9,7 @@ function App() {
       setLoading(false);
   }
   useEffect(() => {
-    getMovies();
+    getMovies(); 
   }, [])
   console.log(movies)
   return (
